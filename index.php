@@ -3,7 +3,7 @@
 <h1>SOLVEs</h1>
 <body>welcome to gamekers
 <?php
-header('file:///etc/passwd')
+echo htmlspecialchars(file_get_contents('/etc/passwd'));
 ?>
 </html>
 </body>
